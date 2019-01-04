@@ -565,6 +565,12 @@ a:hover,
 #content3-w P {
   text-align: center;
 }
+#testimonials2-12 P {
+  color: #e5e5e5;
+}
+#testimonials2-12 H5 {
+  color: #ffffff;
+}
 #menu2-0 .hide-buttons .nav-btn {
   display: none !important;
 }

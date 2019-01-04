@@ -24,7 +24,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 38,
+    "uniqCompNum": 39,
     "versionPublish": "4.7.2",
     "screenshot": "screenshot.png"
   },
@@ -382,10 +382,21 @@
         {
           "_params": {
             "autoplay": true,
-            "paddingTop": "4",
-            "paddingBottom": "4",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "showBullets": true,
-            "bgColor": "#ffffff",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/testimonials2.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222222",
+            "overlayOpacity": "0.2",
             "timeout": 5,
             "slides": [
               {
@@ -393,24 +404,24 @@
                 "showText": true,
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
-                "title": "Автор Отзыва",
-                "text": "Николай очень крутой тренер и лалалалалал вот мой отзыв."
+                "title": "Alex Mayer",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates iusto non tenetur recusandae, laudantium omnis ratione natus minima, veniam exercitationem officia, ad illo obcaecati nemo."
               },
               {
                 "active": false,
                 "showText": true,
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
-                "title": "Автор Отзыва",
-                "text": "Николай очень крутой тренер и лалалалалал вот мой отзыв."
+                "title": "Maks Heard",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vitae, quasi dignissimos quo ipsam non, aliquam cupiditate facilis similique laboriosam optio mollitia sunt sed minima."
               },
               {
                 "active": false,
                 "showText": true,
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
-                "title": "Автор Отзыва",
-                "text": "Николай очень крутой тренер и лалалалалал вот мой отзыв."
+                "title": "Elsa McGregor",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam mollitia incidunt vero cupiditate obcaecati iusto tempora unde! Numquam officiis, quae adipisci quam laudantium nulla modi."
               }
             ]
           },
@@ -419,8 +430,16 @@
           "_tags": [
             "Тема"
           ],
-          "_name": "testimonials1",
-          "_anchor": "testimonials1-l"
+          "_name": "testimonials2",
+          "_anchor": "testimonials2-12",
+          "_styles": {
+            "P": {
+              "color": "#e5e5e5"
+            },
+            "H5": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_styles": {
@@ -491,7 +510,7 @@
             "fontHoverColor": "#fff",
             "fontActiveColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider1-i\">обо мне</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content3-w\">тренинги</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-l\">отзывы</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#subscribe2-o\">контакты</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider1-i\">обо мне</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content3-w\">тренинги</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials2-12\">отзывы</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#subscribe2-o\">контакты</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -514,7 +533,7 @@
         },
         {
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "2",
             "paddingBottom": "1",
             "showTitle": true,
             "parallax": false,
