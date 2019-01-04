@@ -24,7 +24,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 28,
+    "uniqCompNum": 29,
     "versionPublish": "4.7.2",
     "screenshot": "screenshot.png"
   },
@@ -32,7 +32,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Николай Бабкин",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -432,7 +432,7 @@
           },
           "_params": {
             "logo": false,
-            "sticky": true,
+            "sticky": false,
             "transparent": true,
             "bgColor": "#222",
             "fontSize": "1",
