@@ -7,7 +7,7 @@
       "title": "SpaceM",
       "styling": {
         "primaryColor": "#222222",
-        "secondaryColor": "#222222",
+        "secondaryColor": "#ea1717",
         "successColor": "#2BE080",
         "infoColor": "#1A5CEB",
         "warningColor": "#E0C119",
@@ -118,7 +118,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/dsc-1222-2000x1325.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": false,
@@ -148,7 +148,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/dsc-2737-2000x1325.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": false,
@@ -706,7 +706,7 @@
               "src": "@THEME_PATH@/components/_images/inst_6.jpg"
             }
           },
-          "copyright": "&nbsp;All rights reserved. Development by <a href=\"https://mobirise.com\" class=\"text-danger\">redon1on</a>",
+          "copyright": "&nbsp;support@nikolaibabkin.com &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;All rights reserved. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Development by <a href=\"https://mobirise.com\" class=\"text-danger\">redon1on</a>",
           "alias": "spacem/components",
           "_tags": [
             "Тема"
