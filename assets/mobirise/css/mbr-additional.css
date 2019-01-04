@@ -553,23 +553,17 @@ a:hover,
   text-align: left;
   font-family: 'Lato', sans-serif;
 }
-#pricing-table1-k .mbr-section__container .mbr-section-title {
-  color: #fff;
+#counters2-g DIV {
+  color: #222222;
 }
-#pricing-table1-k .mbr-section__container .mbr-section-subtitle {
-  color: #a0a0a0;
+#counters2-g P {
+  color: #757575;
 }
-#pricing-table1-k .mbr-plan-title {
-  font-size: 15px;
+#content3-w H4 {
+  color: #222222;
 }
-#pricing-table1-k .mbr-price-term {
-  font-size: 15px;
-}
-#pricing-table1-k UL {
-  text-align: left;
-}
-#pricing-table1-k DIV {
-  text-align: left;
+#content3-w P {
+  text-align: center;
 }
 #menu2-0 .hide-buttons .nav-btn {
   display: none !important;

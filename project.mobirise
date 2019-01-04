@@ -24,7 +24,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 29,
+    "uniqCompNum": 38,
     "versionPublish": "4.7.2",
     "screenshot": "screenshot.png"
   },
@@ -118,7 +118,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/dsc-1222-2000x1325.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": false,
@@ -127,7 +127,7 @@
                 "title": "Modern <em>Design</em>",
                 "overlay": true,
                 "contentAlign": "left",
-                "text": "<b>с 2012года провел более 100 тренинингов.</b>",
+                "text": "<b>с 2012 года провел более 100 тренинингов.</b>",
                 "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>",
                 "overlayOpacity": "0.4"
               },
@@ -178,7 +178,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/dsc-1170-2000x1325.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": false,
@@ -187,7 +187,7 @@
                 "title": "Website <em>Maker</em>",
                 "overlay": true,
                 "contentAlign": "left",
-                "text": "<b><i>Получал награды за достижение лучших показателей <br>по количеству привлеченных клиентов <br>в 2010 и 2012годах</i></b>",
+                "text": "<b><i>Получал награды за достижение лучших показателей <br>по количеству привлеченных клиентов <br>в 2010 &nbsp;и 2012 годах</i></b>",
                 "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">Purchase</a>",
                 "overlayOpacity": "0.4"
               }
@@ -220,7 +220,7 @@
             "bgImage": "@THEME_PATH@/components/_images/2.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#222222",
+            "bgColor": "#e5e5e5",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -242,92 +242,142 @@
             "Тема"
           ],
           "_name": "counters2",
-          "_anchor": "counters2-g"
+          "_anchor": "counters2-g",
+          "_styles": {
+            "DIV": {
+              "color": "#222222"
+            },
+            "P": {
+              "color": "#757575"
+            }
+          }
         },
         {
-          "_styles": {
-            ".mbr-section__container .mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section__container .mbr-section-subtitle": {
-              "color": "#a0a0a0"
-            },
-            ".mbr-plan-title": {
-              "font-size": "15px"
-            },
-            ".mbr-price-term": {
-              "font-size": "15px"
-            },
-            "UL": {
-              "text-align": "left"
-            },
-            "DIV": {
-              "text-align": "left"
-            }
-          },
           "_params": {
-            "firstType": "",
-            "secondType": "",
-            "thirdType": "",
-            "fourthType": "",
             "paddingTop": "0",
-            "paddingBottom": 3,
-            "showButtons": true,
+            "paddingBottom": "2",
+            "showTitle": true,
+            "showImages": true,
+            "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "bgColorRadio": true,
-            "bgColor": "#222222",
+            "bgColor": "#e5e5e5",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
           },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "handshake",
+              "family": "icon54",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "king-2",
+              "family": "iconsMind",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "money-bag2",
+              "family": "icon54",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "trophy",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "lightbulb",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "presentation",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title": "<em>Our</em> Design",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
           "title1": "Мне говорят: «ДА»",
           "title2": "«Король собеседований»",
-          "title3": "От рубля к 1&nbsp;000&nbsp;000$.",
+          "title3": "От рубля к 1 000 000$",
           "title4": "\"Жизнь П…\"",
-          "subtitle1": "Description",
-          "subtitle2": "Description",
-          "subtitle3": "Description",
-          "subtitle4": "Description",
-          "label1": "Most Popular",
-          "label2": "Most Popular",
-          "label3": "Most Popular",
-          "label4": "Most Popular",
-          "currency1": "",
-          "currency2": "",
-          "currency3": "",
-          "currency4": "",
-          "price1": "",
-          "price2": "",
-          "price3": "",
-          "price4": "",
-          "period1": "<br>&nbsp;Курс предназначен для людей, общение с &nbsp;клиентами у которых является частью &nbsp;жизни.<br><br><br>",
-          "period2": "Обладая данными знаниями, вы будете желанным кандидатом для крупных и международных компаний. Также вы научитесь привлекать в свой бизнес или команду эффективных специалистов и руководителей.",
-          "period3": "<br>&nbsp; Курс для людей, которые хотят стать или &nbsp; уже являются лидерами, но хотят &nbsp; &nbsp; &nbsp;развивать свои навыки.<br><br><br>",
-          "period4": "&nbsp; Каждый человек может адаптировать &nbsp; &nbsp;систему «Счастливая жизнь» под себя, &nbsp; &nbsp;сбалансировать свою жизнь, достичь &nbsp; &nbsp;гармонии и стать счастливым.<br><br><br>",
-          "description1": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list1": "<div><br></div><div><br></div><div>В наше время многие обесценивают профессию продавца, но умение продавать является неотъемлемой частью успеха. В этом курсе детально исследованы техники и алгоритмы продаж, используя которые вы можете управлять своими клиентами.&nbsp;</div><div><br></div><div><br></div><div>-навыки продаж (подготовка, установление контакта, АНиП, презентация, завершение сделки);</div><div>-управление клиентом (повторная покупка, отношение с клиентом, виды агентов, внимание к мелочам);</div><div>-муха и пчела;</div><div><br></div>",
-          "list2": "<div>Развитие в ходе жизни является частью успеха, кто-то развивает свой бизнес, кто-то развивается или планирует развиваться по карьерной лестнице. Не зависимо какой путь вы выбрали кадры являются важной частью компании. Как получить высокую должность или как подобрать эффективного специалиста, который будет развивать бизнес вы узнаете из этого курса.</div><div><br></div><div>-типы сотрудников;</div><div>-кому отдают предпочтение;</div><div>-выявление сильных сторон;</div><div>-прокачка слабых сторон;</div><div>-создание профессионального резюме;</div><div>-настройка на вакансию;</div><div>-прохождение/прием собеседования.</div><div><br></div>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><span style=\"background-color: transparent;\">Лидерами не рождаются! Не каждому лидеру удается реализовать себя, достичь больших высот. Жизнь часто ставит перед нами выбор: достичь (всего), либо потерять (все). Как развиваться самому и вдохновлять людей на покорение новых вершин, узнаете из курса.</span></li><li class=\"list-group-item\"><span style=\"background-color: transparent;\">-составляющие успеха;</span></li><li class=\"list-group-item\"><span style=\"background-color: transparent;\">-стратегии мышление;</span></li><li class=\"list-group-item\"><span style=\"background-color: transparent;\">-с чего начать;</span></li><li class=\"list-group-item\"><span style=\"background-color: transparent;\">-делай то, что не нравиться неудачникам;</span></li><li class=\"list-group-item\"><span style=\"background-color: transparent;\">-как привлечь денежную</span><span style=\"background-color: transparent;\">энергию;</span></li><li class=\"list-group-item\"><span style=\"background-color: transparent;\">-уникальный бизнес. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br></li></ul>",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Многие люди, добившись успеха в карьере или бизнесе не стали счастливее. На пути к успеху они потеряли или испортили отношения с близкими и друзьями.</li><li class=\"list-group-item\"> </li><li class=\"list-group-item\">Они еще помнят, когда занимались хобби. Дело в том, что у них разное отношение к успеху и своей жизни.&nbsp;</li><li class=\"list-group-item\">-жизнь=бизнес проект;&nbsp;</li><li class=\"list-group-item\">-параметры счастья;</li><li class=\"list-group-item\">-управление системой счастья;</li><li class=\"list-group-item\">-методы достижения счастья. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li><li class=\"list-group-item\"><br></li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"index.html#subscribe2-o\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">хочу тренинг</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"index.html#subscribe2-o\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ХОЧУ ТРЕНИНГ</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"index.html#subscribe2-o\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ХОЧУ ТРЕНИНГ</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"index.html#subscribe2-o\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ХОЧУ ТРЕНИНГ</a>",
+          "title5": "innovation ideas",
+          "title6": "business analysis",
+          "text1": "Курс предназначен для людей, общение с  клиентами у которых является частью  жизни.<br><br><b>В наше время многие обесценивают профессию продавца, но умение продавать является неотъемлемой частью успеха. В этом курсе детально исследованы техники и алгоритмы продаж, используя которые вы можете управлять своими клиентами. <br>-навыки продаж (подготовка, установление контакта, АНиП, презентация, завершение сделки);<br>-управление клиентом (повторная покупка, отношение с клиентом, виды агентов, внимание к мелочам);<br>-муха и пчела;</b><br><br>",
+          "text2": "Обладая данными знаниями, вы будете желанным кандидатом для крупных и международных компаний. Также вы научитесь привлекать в свой бизнес или команду эффективных специалистов и руководителей.<br><br><b>Развитие в ходе жизни является частью успеха, кто-то развивает свой бизнес, кто-то развивается или планирует развиваться по карьерной лестнице. Не зависимо какой путь вы выбрали кадры являются важной частью компании. Как получить высокую должность или как подобрать эффективного специалиста, который будет развивать бизнес вы узнаете из этого курса.<br><br>-типы сотрудников;<br>-кому отдают предпочтение;<br>-выявление сильных сторон;<br>-прокачка слабых сторон;<br>-создание профессионального резюме;<br>-настройка на вакансию;<br>-прохождение/прием собеседования.</b><br>",
+          "text3": "  Курс для людей, которые хотят стать или   уже являются лидерами, но хотят      развивать свои навыки.<br><br><b>Лидерами не рождаются! Не каждому лидеру удается реализовать себя, достичь больших высот. Жизнь часто ставит перед нами выбор: достичь (всего), либо потерять (все). Как развиваться самому и вдохновлять людей на покорение новых вершин, узнаете из курса.<br>-составляющие успеха;<br>-стратегии мышление;<br>-с чего начать;<br>-делай то, что не нравиться неудачникам;<br>-как привлечь денежну юэнергию;<br>-уникальный бизнес. </b>&nbsp; &nbsp;<br>",
+          "text4": "Каждый человек может адаптировать    систему «Счастливая жизнь» под себя,    сбалансировать свою жизнь, достичь    гармонии и стать счастливым.<br><br><b>Многие люди, добившись успеха в карьере или бизнесе не стали счастливее. На пути к успеху они потеряли или испортили отношения с близкими и друзьями.<br>Они еще помнят, когда занимались хобби. Дело в том, что у них разное отношение к успеху и своей жизни. <br>-жизнь=бизнес проект; <br>-параметры счастья;<br>-управление системой счастья;<br>-методы достижения счастья. </b>&nbsp; &nbsp;<br>",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus saepe illum, ipsa voluptas animi laborum? Veniam delectus totam, voluptatem maxime!",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique itaque possimus hic. Saepe et deleniti fugit qui, odit tenetur?",
           "alias": "spacem/components",
           "_tags": [
             "Тема"
           ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-k"
+          "_name": "content3",
+          "_anchor": "content3-w",
+          "_styles": {
+            "H4": {
+              "color": "#222222"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_params": {
@@ -432,7 +482,7 @@
           },
           "_params": {
             "logo": false,
-            "sticky": false,
+            "sticky": true,
             "transparent": true,
             "bgColor": "#222",
             "fontSize": "1",
@@ -441,7 +491,7 @@
             "fontHoverColor": "#fff",
             "fontActiveColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">обо мне</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">тренинги</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">отзывы</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">контакты</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider1-i\">обо мне</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content3-w\">тренинги</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-l\">отзывы</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#subscribe2-o\">контакты</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -452,7 +502,7 @@
               "title": ""
             }
           },
-          "icons": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-vkontakte mbr-iconfont mbr-iconfont-btn\"></span></a>  <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"icon-dribbble\"></i></a> ",
+          "icons": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"socicon socicon-vkontakte mbr-iconfont mbr-iconfont-btn\"></span></a>   ",
           "contacts": "<a data-app-btn=\"true\" href=\"tel:+123 (456) 7890 123\"><span class=\"fa fa-phone mbr-iconfont mbr-iconfont-btn\"></span> +123 (456) 7890 123</a><a data-app-btn=\"true\" href=\"mailto:sample@sample.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span> support@nikolaibabkin.com</a>",
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
           "alias": "spacem/components",
