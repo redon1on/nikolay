@@ -24,7 +24,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 39,
+    "uniqCompNum": 40,
     "versionPublish": "4.7.2",
     "screenshot": "screenshot.png"
   },
@@ -459,10 +459,10 @@
               "color": "#989898"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "#fff"
@@ -504,7 +504,7 @@
             "sticky": true,
             "transparent": true,
             "bgColor": "#222",
-            "fontSize": "1",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#989898",
             "fontHoverColor": "#fff",
