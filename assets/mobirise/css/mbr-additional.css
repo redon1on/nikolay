@@ -4,6 +4,7 @@
 
 
 
+
 /*TITLE*/
 .alert,
 h1,
@@ -553,17 +554,17 @@ a:hover,
   text-align: left;
   font-family: 'Lato', sans-serif;
 }
+#title4-18 SPAN {
+  font-family: 'Lato', sans-serif;
+}
+#accordion1-17 P {
+  text-align: left;
+}
 #counters2-g DIV {
   color: #222222;
 }
 #counters2-g P {
   color: #757575;
-}
-#content3-w H4 {
-  color: #222222;
-}
-#content3-w P {
-  text-align: center;
 }
 #testimonials2-12 P {
   color: #e5e5e5;
