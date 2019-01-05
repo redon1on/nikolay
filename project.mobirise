@@ -214,7 +214,7 @@
         {
           "_params": {
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "showTitle": true,
             "showSeparator": true,
             "showSubtitle": false,
@@ -285,7 +285,7 @@
           "title4": "brainstorming",
           "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-black\">МНЕ ГОВОРЯТ: «ДА»<br><span></span></a>",
           "textL1": "<p>Курс предназначен для людей, общение с клиентами у которых является частью жизни.</p><p><br></p><p>В наше время многие обесценивают профессию продавца, но умение продавать является неотъемлемой частью успеха. В этом курсе детально исследованы техники и алгоритмы продаж, используя которые вы можете управлять своими клиентами.&nbsp;</p><p>-навыки продаж (подготовка, установление контакта, АНиП, презентация, завершение сделки);</p><p>-управление клиентом (повторная покупка, отношение с клиентом, виды агентов, внимание к мелочам);</p><p>-муха и пчела;</p><p><br></p>",
-          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">«КОРОЛЬ СОБЕСЕДОВАНИЙ»<br><span></span></a>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">«КОРОЛЬ СОБЕСЕДОВАНИЙ»<br><span><br></span></a>",
           "textL2": "<p>Обладая данными знаниями, вы будете желанным кандидатом для крупных и международных компаний. Также вы научитесь привлекать в свой бизнес или команду эффективных специалистов и руководителей.</p><p><br></p><p>Развитие в ходе жизни является частью успеха, кто-то развивает свой бизнес, кто-то развивается или планирует развиваться по карьерной лестнице. Не зависимо какой путь вы выбрали кадры являются важной частью компании. Как получить высокую должность или как подобрать эффективного специалиста, который будет развивать бизнес вы узнаете из этого курса.</p><p><br></p><p>-типы сотрудников;</p><p>-кому отдают предпочтение;</p><p>-выявление сильных сторон;</p><p>-прокачка слабых сторон;</p><p>-создание профессионального резюме;</p><p>-настройка на вакансию;</p><p>-прохождение/прием собеседования.</p>",
           "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">ОТ РУБЛЯ К 1 000 000$<br><span></span></a>",
           "textL3": "<p>Курс для людей, которые хотят стать или уже являются лидерами, но хотят развивать свои навыки.</p><p><br></p><p>Лидерами не рождаются! Не каждому лидеру удается реализовать себя, достичь больших высот. Жизнь часто ставит перед нами выбор: достичь (всего), либо потерять (все). Как развиваться самому и вдохновлять людей на покорение новых вершин, узнаете из курса.</p><p>-составляющие успеха;</p><p>-стратегии мышление;</p><p>-с чего начать;</p><p>-делай то, что не нравиться неудачникам;</p><p>-как привлечь денежну юэнергию;</p><p>-уникальный бизнес. &nbsp; &nbsp;</p>",
@@ -503,7 +503,7 @@
             "fontHoverColor": "#fff",
             "fontActiveColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider1-i\">обо мне</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content3-w\">тренинги</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials2-12\">отзывы</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#subscribe2-o\">контакты</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider1-i\">обо мне</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-17\">тренинги</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials2-12\">отзывы</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#subscribe2-o\">контакты</a></li>",
           "logo": {
             "image": {
               "active": true,
